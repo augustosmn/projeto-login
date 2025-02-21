@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*Celular*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,html{
+    background-color: #0552E0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    position: relative
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width:  350px;
+    border-radius: 20px;
+    background: white url('../imagens/background.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    height: 375px;
+    width:  350px;
+    border-radius: 20px;
+    background-color: white
+}
+
+section h1{
+    text-align: center;
+    padding: 10px;
+}
+
+section p{
+    text-align: justify;
+    padding: 15px;
+}
+
+form > p{
+    background-color: #F53E31;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px 0px 0px 5px;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    width: 245px;
+    margin: 5px 0px 9px 0px;
+    padding: 0px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #8DCFAF;
+}
+
+span#person, span#vpn_key{
+    padding: 2px 2px 0px 2px;
+    color: white;
+}
+
+input#entrar{
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding: 5px 0px 0px 5px;
+    width: 330px;
+    height: 40px;
+}
+
+input#entrar:hover{
+    cursor: pointer;
+    background-color: #7AB7A0;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #8DCFAF;
+    border-radius: 10px;
+    margin: 10px;
+    width: 330px;
+    height: 40px;
+    text-align: center;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: #7AB7A0;
+}
+
+span#mail{
+    padding: 5px 2px 0px 2px;
+}

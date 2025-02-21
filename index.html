@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/others.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="teste.php" method="post" autocomplete="on">
+                <p>
+                    <label for="iemail"></label>
+                    <span id="person" class="material-symbols-outlined">person</span>
+                    <input type="email" name="email" id="iemail" required placeholder="seu e-mail" autocomplete="email">
+                </p>
+                <p>
+                    <label for="ipass"></label>
+                    <span id="vpn_key" class="material-symbols-outlined">vpn_key</span>
+                    <input type="password" name="pass" id="ipass" required placeholder="sua senha" autocomplete="current-password" minlength="8" maxlength="20">
+                </p>
+            <input id="entrar" type="submit" value="Entrar"></form>
+            <a href="teste.php">Esqueci a senha <span id="mail" class="material-symbols-outlined">mail</span></a>
+        </section>
+    </main>
+</body>
+</html>
