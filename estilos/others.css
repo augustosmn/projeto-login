@@ -9,6 +9,7 @@
     main{
         height: 350px;
         width: 600px;
+
     }
 
     section{
@@ -23,7 +24,7 @@
     }
 
     input{
-        width: 320px;
+        width: 360px;
         height: 30px;
     }
     
@@ -35,12 +36,8 @@
         padding: 7px 2px 0px 8px;
     }
     
-    input#entrar{
+    input#entrar, a{
         width: 406px;
-    }
-
-    a{
-        width: 402px;
     }
 
 }
@@ -72,7 +69,7 @@
     }
 
     input{
-        width: 390px;
+        width: 430px;
         height: 30px;
     }
     
@@ -84,11 +81,8 @@
         padding: 7px 2px 0px 8px;
     }
     
-    input#entrar{
+    input#entrar, a{
         width: 480px;
     }
 
-    a{
-        width: 476px;
-    }
 }

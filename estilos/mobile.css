@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 body,html{
@@ -28,6 +29,7 @@ main{
     border-radius: 20px;
     background: white url('../imagens/background.jpg') right center no-repeat fixed;
     background-size: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
 
 section{
@@ -61,7 +63,7 @@ form > p{
 input{
     height: 30px;
     border-radius: 10px;
-    width: 245px;
+    width: 285px;
     margin-bottom: 9px;
     padding: 0px 20px;
     font-size: 1em;
