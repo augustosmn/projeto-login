@@ -1,2 +1,92 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body,html{
+        background-image: linear-gradient(to bottom, #002E82, #0552E0,  #5C8CE6);
+    }
+
+    main{
+        height: 350px;
+        width: 600px;
+    }
+
+    section{
+        transform: translate(-29%, -50%);
+        width: 425px;
+        height: 350px;
+    }
+
+    section p{
+        padding: 0px 20px 5px;
+    }
+
+    input{
+        width: 320px;
+        height: 30px;
+    }
+    
+    form > p{
+        padding: 0px;
+    }
+
+    span#person, span#vpn_key{
+        padding: 7px 2px 0px 8px;
+    }
+    
+    input#entrar{
+        width: 406px;
+    }
+
+    a{
+        width: 402px;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    
+    body,html{
+        background-image: linear-gradient(to bottom, #002E82, #0552E0,  #5C8CE6);
+    }
+
+    main{
+        height: 350px;
+        width: 900px;
+    }
+
+    section{
+        transform: translate(-90%, -50%);
+        width: 500px;
+        height: 350px;
+    }
+
+    section h1{
+        padding-top: 20px;
+    }
+
+    section p{
+        padding: 0px 20px 5px;
+    }
+
+    input{
+        width: 390px;
+        height: 30px;
+    }
+    
+    form > p{
+        padding: 0px;
+    }
+
+    span#person, span#vpn_key{
+        padding: 7px 2px 0px 8px;
+    }
+    
+    input#entrar{
+        width: 480px;
+    }
+
+    a{
+        width: 476px;
+    }
+}
