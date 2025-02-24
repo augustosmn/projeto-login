@@ -37,7 +37,7 @@ section{
     transform: translate(-50%, -20%);
     height: 375px;
     width:  350px;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
     background-color: white
 }
 

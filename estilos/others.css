@@ -15,6 +15,7 @@
         transform: translate(-29%, -50%);
         width: 425px;
         height: 350px;
+        border-radius: 0px 20px 20px 0px;
     }
 
     section p{
@@ -59,6 +60,7 @@
         transform: translate(-90%, -50%);
         width: 500px;
         height: 350px;
+        border-radius: 20px 0px 0px 20px;
     }
 
     section h1{
