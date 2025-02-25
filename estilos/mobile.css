@@ -71,6 +71,10 @@ input{
     background-color: #8DCFAF;
 }
 
+input:focus-within{
+    background-color: white;
+}
+
 span#person, span#vpn_key{
     padding: 2px 2px 0px 2px;
     color: white;
